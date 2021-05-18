@@ -4,9 +4,9 @@
 int main(void) { 
     int type, rows, i, j;
     type = get_int("Enter type of pattern (1 or 2) ");
+    rows = get_int("Number of rows ");
     if(type == 1)
     {
-        rows = get_int("Number of rows ");
         for(i = rows; i > 0; i--)
         {   
             for(j = i; j > 0; j--)
@@ -17,8 +17,7 @@ int main(void) {
          }
      }
      if(type == 2)
-     { 
-         rows = get_int("Number of rows ");
+     {
          for(i = 0; i < rows ; i++)
          {
              for(int k = rows - i - 1; k > 0; k--)
