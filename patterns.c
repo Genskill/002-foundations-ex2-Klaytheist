@@ -3,11 +3,10 @@
 
 int main(void) { 
     int type, rows, i, j;
-    type = get_int("Enter type of pattern (1 or 2) ");
-    rows = get_int("Number of rows ");
+    type = get_int("Enter type of pattern (1 or 2) \n");
+    rows = get_int("Number of rows \n");
     if(type == 1)
     {
-        printf("\b");
         for(i = rows; i > 0; i--)
         {   
             for(j = i; j > 0; j--)
