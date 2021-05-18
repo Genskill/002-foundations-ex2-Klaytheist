@@ -7,6 +7,7 @@ int main(void) {
     rows = get_int("Number of rows ");
     if(type == 1)
     {
+        printf("\b");
         for(i = rows; i > 0; i--)
         {   
             for(j = i; j > 0; j--)
