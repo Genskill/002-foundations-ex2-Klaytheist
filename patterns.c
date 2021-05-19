@@ -3,8 +3,8 @@
 
 int main(void) { 
     int type, rows, i, j;
-    type = get_int();
-    rows = get_int();
+    type = get_int("");
+    rows = get_int("");
     if(type == 1)
     {
         for(i = rows; i > 0; i--)
