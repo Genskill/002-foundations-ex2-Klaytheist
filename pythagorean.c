@@ -2,17 +2,16 @@
 #include<cs50.h>
 
 int main(void) { 
-    int I, II, III;
-    I = get_int("side 1 ");
+    int I1, II, III;
+    I1 = get_int("side 1 ");
     II = get_int("side 2 ");
     III = get_int("side 3 ");
-    if((I*I)+(II*II) == (III*III))
+    if((I1*I1)+(II*II) == (III*III))
         printf("Yes");
-    else if((I*I)+(III*III) == (II*II))
+    else if((I1*I1)+(III*III) == (II*II))
         printf("Yes");
-    else if((II*II)+(III*III) == (I*I))
+    else if((II*II)+(III*III) == (I1*I1))
         printf("Yes");
     else
-    	printf("No");
-    
+    	printf("No"); 
 }
